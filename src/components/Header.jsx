@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import profile from '../assets/profile.jpg';
-import background from '../assets/background.jpg'; // Add your background image
+import background from '../assets/background.jpg';
 import '../styles/style.css';
 
 const Header = () => {
@@ -9,20 +9,33 @@ const Header = () => {
 
   return (
     <section
-      className="text-white d-flex align-items-center"
+      className="text-white d-flex align-items-center fade-in"
       style={{
-        backgroundImage: `url(${background})`,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center 45%',
-        height: '100vh',
         position: 'relative',
+        height: '100vh',
+        borderRadius: '15px',
         overflow: 'hidden',
-        backdropFilter: 'blur(6px)',
       }}
     >
-      <div style={{ backgroundColor: 'transparent', width: '100%', backdropFilter: 'blur(5px)', }}>
-        <Container style={{ zIndex: 2 }}>
+      <div
+        style={{
+          backgroundImage: `url(${background})`,
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: '80% center',
+          filter: 'blur(8px)',
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          zIndex: 1,
+          transform: 'scale(1.1)',
+        }}
+      />
+
+      <div style={{ backgroundColor: 'transparent', width: '100%', zIndex: 2, position: 'relative' }}>
+        <Container>
           <Row className="align-items-center">
             <Col md={6} className="text-center text-md-start py-5">
               <h1 className="animated-name fw-bold display-6">Hello, I'm</h1>

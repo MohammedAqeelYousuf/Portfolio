@@ -38,8 +38,14 @@ const Skills = () => {
 
   return (
     <section id="skills" className="py-5 bg-dark text-white">
-      <Container>
-        <h2 className="text-center mb-4 fade-in">Skills</h2>
+      <Container className="fade-in"
+        style={{
+          backgroundColor: '#ffffff',
+          borderRadius: '1rem',
+          boxShadow: '0 6px 30px rgba(0, 0, 0, 0.1)',
+          animation: 'fadeInUp 1s ease-in-out',
+        }}>
+        <h2 className="text-center mb-4" style={{ paddingTop: '2rem', paddingBottom: '1rem', color:'black' }}>Skills</h2>
         <Row>
           {skillData.map((skill, index) => (
             <Col
@@ -49,7 +55,7 @@ const Skills = () => {
               key={index}
             >
               <Card
-                className="bg-secondary text-white h-100 shadow-lg p-3"
+                className="bg-dark text-white h-100 shadow-lg p-3"
                 onClick={() => handleOpenModal(skill)}
                 style={{ cursor: 'pointer', borderRadius: '15px' }}
               >

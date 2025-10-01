@@ -9,7 +9,7 @@ const scrollToSection = (id) => {
 };
 
 const Navbar = () => (
-  <BootstrapNavbar bg="dark" variant="dark" expand="lg" sticky="top">
+  <BootstrapNavbar bg="dark" variant="dark" expand="lg">
     <Container>
       {/* Brand scrolls to top or header section */}
       <BootstrapNavbar.Brand
