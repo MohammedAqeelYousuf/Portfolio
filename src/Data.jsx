@@ -1,3 +1,17 @@
+import gitlogo from "./assets/git.png"
+import htmllogo from "./assets/html.png"
+import csslogo from "./assets/css.png"
+import jslogo from "./assets/javascript.png"
+import clublogo from "./assets/club.png"
+import cognizantlogo from "./assets/cognizant.png"
+import reactlogo from "./assets/react.png"
+import nodejslogo from "./assets/nodejs.png"
+import pythonlogo from "./assets/python.jpg"
+import mongodblogo from "./assets/mongodb.png"
+import bootstraplogo from "./assets/bootstrap.png"
+
+
+
 export const projectData = [
     {
     title: "Source Code Vulnerability Tester",
@@ -26,14 +40,14 @@ export const experiences = [
     title: "Secure Hub (Student Club) - Co-Founder",
     shortDesc: "Founded and led the official Cybersecurity club in college.",
     details: `•I Co-Founded Secure Hub, a student-driven cybersecurity club, aimed at creating awareness and providing hands-on experience in ethical hacking.\n• As part of the club's initiatives, I organized a three-day Bug Bounty workshop focused on web penetration testing and also coordinated a seminar with a cybersecurity expert to bridge academic learning with real-world practices.`,
-    image: '/src/assets/club.png',
+    image: clublogo,
     time: 'December 2023 - June 2025'
   },
   {
     title: "Cognizant - Programmer Analyst Trainee",
     shortDesc: "Currently working at Cognizant as an Intern.",
     details: `• I am completed my internship at Cognizant in the domain of React development.\n• Throughout this internship, I have gained hands-on experience with modern web technologies such as HTML, CSS, Bootstrap, JavaScript, and React.\n• I actively contributed to a real-time enterprise-level project titled Smart Connect, a portal designed to improve internal communication and streamline support services.\n• The project specifically serves as a platform for students to stay informed about college announcements, upcoming events, and important updates. Working in an Agile environment, I regularly took part in sprint planning, daily stand-up meetings, and collaborative development processes using Git.\n• This experience is not only enhanced my technical skills but also provided valuable exposure to industry-standard development practices and teamwork in a professional setting.`,
-    image: '/src/assets/cognizant.png',
+    image: cognizantlogo,
     time: 'May 2025 - September 2025'
   }
 ];
@@ -42,47 +56,47 @@ export const skillData = [
   {
     name: 'Git',
     level: 90,
-    logo: '/src/assets/git.png'
+    logo: gitlogo
   },
   {
     name: 'HTML',
     level: 95,
-    logo: '/src/assets/html.png'
+    logo: htmllogo
   },
   {
     name: 'CSS',
     level: 95,
-    logo: '/src/assets/css.png'
+    logo: csslogo
   },
   {
     name: 'Bootstrap',
     level: 95,
-    logo: '/src/assets/bootstrap.png'
+    logo: bootstraplogo
   },
   {
     name: 'JavaScript',
     level: 85,
-    logo: '/src/assets/javascript.png'
+    logo: jslogo
   },
   {
     name: 'React',
     level: 90,
-    logo: '/src/assets/react.png'
+    logo: reactlogo
   },
   {
     name: 'Node.js',
     level: 75,
-    logo: '/src/assets/nodejs.png'
+    logo: nodejslogo
   },
    
   {
     name: 'MongoDB',
     level: 90,
-    logo: '/src/assets/mongodb.png'
+    logo: mongodblogo
   },
   {
     name: 'Python',
     level: 80,
-    logo: '/src/assets/python.jpg'
+    logo: pythonlogo
   },
 ];
