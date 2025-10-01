@@ -25,9 +25,15 @@ const About = () => {
 
   return (
     <section id="about" className="py-5 bg-dark">
-      <Container className="d-flex justify-content-center">
-        <div className="p-4 rounded shadow bg-light fade-in">
-          <h2 className="mb-4 text-center text-gradient display-5 fw-bold fade-in">
+          <Container className="fade-in"
+            style={{
+              backgroundColor: '#ffffff',
+              borderRadius: '1rem',
+              boxShadow: '0 6px 30px rgba(0, 0, 0, 0.1)',
+              animation: 'fadeInUp 1s ease-in-out',
+            }}>
+        <div className="p-4 rounded  fade-in">
+          <h2 className="mb-4 text-center fw-bold fade-in">
             About Me
           </h2>
 
