@@ -32,7 +32,7 @@ const About = () => {
           </h2>
 
           <div className="paragraph fs-5 lh-lg mb-4 fade-in">
-            I'm an enthusiastic tech creator currently pursuing a BTech in Information Technology. 
+            I'm an enthusiastic tech creator and a recent BTech graduate in Information Technology. 
             I enjoy transforming ideas into real-world applications through thoughtful and efficient code. 
             Driven by curiosity and a strong work ethic, I aim to craft software that’s not only functional 
             but also scalable and user-friendly.
